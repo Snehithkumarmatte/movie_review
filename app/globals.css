@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 16px;
+}
+
+@layer base {
+  html { @apply scroll-smooth; }
+  body { @apply bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100; }
+  a { @apply hover:underline underline-offset-2 decoration-dotted; }
+}
